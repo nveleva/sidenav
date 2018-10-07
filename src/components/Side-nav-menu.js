@@ -26,7 +26,6 @@ class SideNavMenu extends React.Component {
                     <img src={logo} className="sidenav-logo" />
                 </div>
                 <div className="sports-wrapper">
-                
                     <div className="sport-item" id="1"  onClick={() => this.onToggleItem(1)}>Soccer</div>
                     {this.state.currentToggleItemId == 1 ? <div className="country-wrapper">
                         <div className="country-item" id="2" onClick={() => this.onToggleItem(2)}>England</div>
