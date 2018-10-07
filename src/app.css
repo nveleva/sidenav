@@ -1,0 +1,66 @@
+
+a:hover {
+    color: #fff;
+}
+
+.button-collapse-left-menu {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.sidenav {
+    position: fixed;
+    width: 240px;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    color: #d8d8d8;
+    background-color: #224562;
+    z-index: 1033;
+    transition: 0.5s;
+   /* height: -webkit-calc(100%+ 60px);
+    height: calc(100%+ 60px);
+    height: -moz-calc(100%);
+    -webkit-backface-visibility: hidden;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    -ms-transform: translateX(-105%);
+    transform: translateX(-105%);*/
+    padding: 20px;
+}
+
+.sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1032;
+}
+
+.sidenav-logo {
+    width: 150px;
+    height: 50px;
+}
+
+.sports-wrapper {
+    margin-top: 20px;
+}
+
+.sport-item {
+    cursor: pointer;
+}
+
+.country-item {
+    cursor: pointer;
+}
+
+.league-item {
+    cursor: pointer;
+}
+
+.event-item {
+    cursor: pointer;
+}

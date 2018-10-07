@@ -1,0 +1,84 @@
+{
+    "branches" : [
+        {
+            "sportId": 1,
+            "sportName": "Soccer",
+            "countries": [{
+                "countryId": 101,
+                "countryName": "Austria",
+                "countryLeague": [
+                    {
+                    "leagueId": 1011,
+                    "leagueName": "Austria-Bundesliga",
+                    "events": [{
+                        "eventId": 10111,
+                        "eventName": "Austria-Bundesliga 2018/19 Winner",
+                        "startTime": "12:00"
+                    }]
+                }]
+            },
+            {
+                "countryId": 102,
+                "countryName": "Brazil",
+                "countryLeague": [
+                    {
+                    "leagueId": 1021,
+                    "leagueName": "Brazil-Seria A",
+                    "events": [{
+                        "eventId": 10211,
+                        "eventName": "Brazil-Seria A 2018 Winner",
+                        "startTime": "19:00"
+                    }]
+                },
+                {
+                    "leagueId": 1022,
+                    "leagueName": "Brazil Gauncho Cup U19",
+                    "events": [{
+                        "eventId": 10221,
+                        "eventName": "PRS Futebol Clube U19 v Rio Grande U19",
+                        "startTime": "15:30"
+                    }]
+                }]
+            },
+            {
+                "countryId": 103,
+                "countryName": "England",
+                "countryLeague": [
+                    {
+                    "leagueId": 1031,
+                    "leagueName": "England-Championship",
+                    "events": [{
+                        "eventId": 10311,
+                        "eventName": "England - Championship 2018/19 - To Be Promoted",
+                        "startTime": "08:30"
+                    },
+                    {
+                        "eventId": 10312,
+                        "eventName": "England - Championship 2018/19 - To Finish Bottom",
+                        "startTime": "08:30"
+                    }]
+                },
+                {
+                    "leagueId": 1032,
+                    "leagueName": "England - Premier League",
+                    "events": [{
+                        "eventId": 10321,
+                        "eventName": "Arsenal - Leicester",
+                        "startTime": "19:00"
+                    },
+                    {
+                        "eventId": 10322,
+                        "eventName": "Bournemouth - Southampton",
+                        "startTime": "14:00"
+                    },
+                    {
+                        "eventId": 10323,
+                        "eventName": "Brighton - West Ham",
+                        "startTime": "19:00"
+                    }]
+                }]
+            }
+        ]
+        }
+    ]
+}
