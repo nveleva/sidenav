@@ -1,0 +1,129 @@
+{
+    "activeSports": [
+        {
+            "Id": 1,
+            "Name": "Soccer",
+            "NumberOfEvents": 30
+        },
+        {
+            "Id": 2,
+            "Name": "Basketball",
+            "NumberOfEvents": 11
+        },
+        {
+            "Id": 3,
+            "Name": "Football",
+            "NumberOfEvents": 12
+        },
+        {
+            "Id": 4,
+            "Name": "Tennis",
+            "NumberOfEvents": 9
+        },
+        {
+            "Id": 5,
+            "Name": "BaseBall",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 6,
+            "Name": "Ice Hockey",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 7,
+            "Name": "HandBall",
+            "NumberOfEvents": 17
+        },
+        {
+            "Id": 8,
+            "Name": "VolleyBall",
+            "NumberOfEvents": 3
+        },
+        {
+            "Id": 9,
+            "Name": "Futsal",
+            "NumberOfEvents": 30
+        },
+        {
+            "Id": 11,
+            "Name": "Floorball",
+            "NumberOfEvents": 30
+        },
+        {
+            "Id": 12,
+            "Name": "Golf",
+            "NumberOfEvents": 30
+        },
+        {
+            "Id": 13,
+            "Name": "Rugby League",
+            "NumberOfEvents": 30
+        },
+        {
+            "Id": 14,
+            "Name": "Darts",
+            "NumberOfEvents": 30
+        },
+        {
+            "Id": 15,
+            "Name": "Boxing",
+            "NumberOfEvents": 3
+        },
+        {
+            "Id": 17,
+            "Name": "Snooker & Pool",
+            "NumberOfEvents": 3
+        },
+        {
+            "Id": 18,
+            "Name": "Table Tennis",
+            "NumberOfEvents": 8
+        },
+        {
+            "Id": 19,
+            "Name": "Cricket",
+            "NumberOfEvents": 7
+        },
+        {
+            "Id": 24,
+            "Name": "Rugby Union",
+            "NumberOfEvents": 7
+        },
+        {
+            "Id": 25,
+            "Name": "Badminton",
+            "NumberOfEvents": 7
+        },
+        {
+            "Id": 28,
+            "Name": "Aussie Rules",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 29,
+            "Name": "MMA",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 30,
+            "Name": "Bandy",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 31,
+            "Name": "Winter sports",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 82,
+            "Name": "Muay Thai Sport",
+            "NumberOfEvents": 5
+        },
+        {
+            "Id": 108,
+            "Name": "E-Sports",
+            "NumberOfEvents": 3
+        }
+    ]
+}

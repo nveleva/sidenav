@@ -1,4 +1,18 @@
 
+ul {
+    list-style: none;
+  }
+
+  ul, menu, dir {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
 a:hover {
     color: #fff;
 }
@@ -10,7 +24,7 @@ a:hover {
 
 .sidenav {
     position: fixed;
-    width: 240px;
+    width: 350px;
     top: 0;
     margin: 0;
     height: 100%;
@@ -27,7 +41,7 @@ a:hover {
     -webkit-transform: translateX(-105%);
     -ms-transform: translateX(-105%);
     transform: translateX(-105%);*/
-    padding: 20px;
+    padding: 10px;
 }
 
 .sidenav-overlay {
@@ -49,20 +63,40 @@ a:hover {
     margin-top: 20px;
 }
 
-.sport-item {
+/*.branch {
+    background-color: rgba(255,255,255,.15);
+}*/
+
+.branch > a {
+    color: #fff;
     cursor: pointer;
+    font-weight: 300;
+    font-size: .8rem;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    transition: all .3s linear;
 }
 
-.country-item {
-    cursor: pointer;
+.branch:hover {
+    background-color: rgba(72,198,255,.8);
 }
 
-.league-item {
-    cursor: pointer;
+.country {
+    background-color: #224562;
 }
 
-.event-item {
-    cursor: pointer;
+.country a {
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 300;
+    font-size: .8rem;
+    padding-left: 5px;
+}
+
+.country a:hover {
+    color: #67d5ff;
 }
 
 ul ul {
@@ -70,4 +104,27 @@ ul ul {
 }
 ul li.active > ul {
     display: block;
+}
+
+.content-wraper {
+    margin-top: 84px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    text-align: left;
+    width: 100%;
+}
+
+tr {
+    height: 32px;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
 }

@@ -1,0 +1,24 @@
+{
+    "Leagues": [
+        {
+            "Id": 1,
+            "Name": "AFC Asian Cup",
+            "NumberOfEvents": 1
+        },
+        {
+            "Id": 2,
+            "Name": "AFC Challenge Cup",
+            "NumberOfEvents": 1
+        },
+        {
+            "Id": 3,
+            "Name": "AFC Champions League",
+            "NumberOfEvents": 9
+        },
+        {
+            "Id": 4,
+            "Name": "Africa CupOf Nations",
+            "NumberOfEvents": 3
+        }
+    ]
+}

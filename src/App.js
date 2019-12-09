@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './pages/Home';
 import Event from './pages/Event';
+import League from './pages/League';
 import NoMatch from './pages/NoMatch';
 
 class FixedNavbarExample extends React.Component {
@@ -72,6 +73,7 @@ class FixedNavbarExample extends React.Component {
             
             <Switch>
               <Route exact path="/" component={Home}/>
+              <Route path="/league/:id" component={League} />
               <Route path="/event/:id" component={Event} />
               {/* <Route component={NoMatch}/> */}
             </Switch>

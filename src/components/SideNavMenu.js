@@ -22,7 +22,7 @@ class MenuItem extends React.Component {
     }
 
     render() {
-        const { text, type, icon = "", subItems = [], link = '#' } = this.props;
+        const {text, type, icon = "", subItems = [], link = '#' } = this.props;
         const { ref } = this.state;
 
         return (
@@ -53,20 +53,24 @@ export default class SideNavMenu extends React.Component {
                     <ul>
                         {branches.map(branch => {
                             const subItems = branch.countries.map(country => ({
+                                key: country.countryId,
                                 text: country.countryName,
                                 type: "country",
                                 icon: "flag",
                                 subItems: country.countryLeague.map(league => ({
+                                    key: league.leagueId,
                                     text: league.leagueName,
                                     type: "league",
+                                    link: `league/${league.leagueId}`,
                                     subItems: league.events.map(event => ({
+                                        key: event.eventId,
                                         text: event.eventName,
                                         type: "event",
                                         link: `event/${event.eventId}`
                                     }))
                                 }))
                             }));
-                            return <MenuItem type="branch" text={branch.sportName} subItems={subItems} />
+                            return <MenuItem type="branch" key={branch.sportId} text={branch.sportName} subItems={subItems} />
                         }
                         )}
                     </ul>
